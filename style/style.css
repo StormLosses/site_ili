@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-width: 1100px;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+.header {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  border-bottom: 10px solid black;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.header__heading {
+  font-family: "GULAG", serif;
+
+  font-size: 76px;
+}
+.logo { height: 400px; width: 400px;
+  border-radius: 50%;
+}
