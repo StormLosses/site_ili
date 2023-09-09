@@ -84,3 +84,8 @@ img {
   gap: 10px;
   white-space: nowrap;
 }
+
+.main {
+  flex-grow: 1;
+  border: 1px solid red;
+}
