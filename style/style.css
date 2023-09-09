@@ -53,3 +53,8 @@ img {
 .logo { height: 400px; width: 400px;
   border-radius: 50%;
 }
+
+.main {
+  flex-grow: 1;
+  border: 1px solid red;
+}
