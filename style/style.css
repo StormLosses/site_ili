@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  min-width: 1100px;
+ 
   margin: 0;
   font-family: Raleway, sans-serif;
   flex-direction: column;
@@ -130,6 +130,14 @@ img {
   object-position: center;
   object-fit: cover;
 }
+.card__text{
+    background-color:white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 500;
+}
 .position__right{
     object-position: right;
 }
@@ -143,4 +151,22 @@ img {
   font-size: 20px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
   background-color: #368d54;
+}
+
+@media (max-width: 1279px) {
+    .cards{grid-template-columns: repeat(1, 1fr);
+    }
+    .logo{height: 150px;
+    width: 150px;}
+    .header{height: 200px;}
+    .header__heading{font-size: 18px;}
+    .header__links{visibility: hidden;}
+    .card{
+        width: 300px;
+        height: 300px;
+        width:min-content;
+        font-size: 10px;
+    }
+    .card__image{width: 150px;}
+    .card__text{font-size: 10px;}
 }
